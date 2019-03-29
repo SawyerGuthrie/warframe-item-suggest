@@ -1,0 +1,29 @@
+{
+  "name": "warframe-item-suggest",
+  "version": "1.0.0",
+  "description": "A tool to be used to determine the next item a user should build",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SawyerGuthrie/warframe-item-suggest.git"
+  },
+  "keywords": [
+    "warframe",
+    "items",
+    "suggestion"
+  ],
+  "author": "Sawyer Guthrie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SawyerGuthrie/warframe-item-suggest/issues"
+  },
+  "homepage": "https://github.com/SawyerGuthrie/warframe-item-suggest#readme",
+  "dependencies": {
+    "nodemon": "^1.18.10",
+    "warframe-items": "^1.232.0"
+  }
+}
